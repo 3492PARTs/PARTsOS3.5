@@ -648,46 +648,47 @@ AddOutputFilter chunkFilter
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
-				<Property Name="App_INI_aliasGUID" Type="Str">{067FD83F-2C97-4125-9F5A-F761978FA41D}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{0A0DB645-CEE2-4F89-9EBA-5A8D0274B515}</Property>
+			<Item Name="My Real-Time Application" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{A78E7BF6-DACE-417D-ABA1-7A19E557FB48}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{886042E6-9AE5-4CB2-B50F-D4FF960AA436}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
-				<Property Name="App_winsec.description" Type="Str">http://www.NI.com</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{596AFC12-1926-4957-B836-0D5B62F4E1CC}</Property>
-				<Property Name="Bld_buildSpecDescription" Type="Str">Build Robot Main.vi into an EXE that will run at startup on the roboRIO</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">FRC Robot Boot-up Deployment</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{8B7476B1-1404-4BFD-ADE7-6754E9BE04C9}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">My Real-Time Application</Property>
 				<Property Name="Bld_compilerOptLevel" Type="Int">0</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/Users/Brandon/Documents/LabVIEW Data/NI_AB_PROJECTNAME/Builds</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/NI_AB_TARGETNAME/My Real-Time Application</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{980EAAB3-3632-4C6E-8261-281A41A3B1DC}</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{A22390E5-93EC-4394-8044-140A55280A31}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
 				<Property Name="Bld_version.build" Type="Int">2</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">/home/lvuser/natinst/bin/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{C54A88FF-94DA-43F2-B772-57A131434BED}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{AD9D88AF-DE21-4634-A7EE-0C0156E8B716}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/Target/Robot Main.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="TgtF_companyName" Type="Str">NI</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">FRC Robot Boot-up Deployment</Property>
-				<Property Name="TgtF_internalName" Type="Str">FRC Robot Boot-up Deployment</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2013 NI</Property>
-				<Property Name="TgtF_productName" Type="Str">FRC Robot Boot-up Deployment</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{EC16680C-589A-43F3-B8D2-8A5E18A2B237}</Property>
+				<Property Name="TgtF_companyName" Type="Str">Putnam Area Robotic Team</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">My Real-Time Application</Property>
+				<Property Name="TgtF_internalName" Type="Str">My Real-Time Application</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2016 Putnam Area Robotic Team</Property>
+				<Property Name="TgtF_productName" Type="Str">My Real-Time Application</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{28AAAAAD-A9B5-4636-9839-85989BFDE5B0}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">startup.rtexe</Property>
 			</Item>
 		</Item>
